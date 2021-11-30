@@ -1,0 +1,47 @@
+.head{
+    display: flex;
+    justify-content: space-around;
+    .logo{
+        h1{
+            font-size: 70px;
+            color: rgb(124, 43, 43);
+        }
+    }
+    .basket{
+        margin-top: 20px;
+        margin-left: 20px;
+        
+        i{
+            font-size: 50px;
+            color: rgb(128, 128, 45);
+            margin-right: 50px;
+        }
+    }
+    .basketlist{
+        height: 100%;
+        width: 250px;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        transition: 1s;
+        z-index: 3;
+    
+        i{
+            color: #7C2B2B;
+            font-size: 20px;
+            
+        }
+    }
+}
+.container{
+    .cards{
+        margin-top: 30px;
+        .card{
+            margin-left: 5px;
+            
+            img{
+                height: 300px;
+            }
+        }
+    }
+}

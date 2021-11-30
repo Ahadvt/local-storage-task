@@ -1,0 +1,52 @@
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.head .logo h1 {
+  font-size: 70px;
+  color: #7c2b2b;
+}
+
+.head .basket {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.head .basket i {
+  font-size: 50px;
+  color: #80802d;
+  margin-right: 50px;
+}
+
+.head .basketlist {
+  height: 100%;
+  width: 250px;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  z-index: 3;
+}
+
+.head .basketlist i {
+  color: #7C2B2B;
+  font-size: 20px;
+}
+
+.container .cards {
+  margin-top: 30px;
+}
+
+.container .cards .card {
+  margin-left: 5px;
+}
+
+.container .cards .card img {
+  height: 300px;
+}
+/*# sourceMappingURL=main.css.map */
